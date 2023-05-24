@@ -1,0 +1,21 @@
+name: scylladb-driver
+version: 0.1.0
+
+authors:
+  - João Augusto Lissoni Lanjoni <joaoaugustolanjoni@gmail.com>
+
+description: |
+  ScyllaDB complete Crystal driver
+
+dependencies:
+  db:
+    github: crystal-lang/crystal-db
+    version: "~> 0.11.0"
+
+development_dependencies:
+  crystal_lib:
+    github: crystal-lang/crystal_lib
+  spectator:
+    github: arctic-fox/spectator
+
+license: MIT

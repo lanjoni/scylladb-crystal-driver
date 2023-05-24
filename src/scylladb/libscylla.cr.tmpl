@@ -1,0 +1,10 @@
+module ScyllaDB
+    @[Include("scylladb.h", prefix: %w(scylla_ SCYLLA_))]
+    {% if flag?(:static) %}
+    @[Link("scylladb_static")]
+    {% else %}
+    @[Link("scylladb")]
+    {% end %}
+    lib LibScylla
+    end
+end
