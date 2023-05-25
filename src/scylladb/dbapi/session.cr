@@ -41,19 +41,20 @@ module ScylladB
                 ensure
                     LibScylla.future_free(scylla_connect_future)
                 end
+            end
 
-                def do_close
-                    LibScylla.session_free(@scylla_session)
-                    @cluster.do_close
-                end
+            def do_close
+                LibScylla.session_free(@scylla_session)
+                @cluster.do_close
+            end
 
-                def build_prepared_statement(query) : DB::Statement 
-                    PreparedStatement.new(self, query, @cluster.paging_size)
-                end
+            def build_prepared_statement(query) : DB::Statement 
+                PreparedStatement.new(self, query, @cluster.paging_size)
+            end
 
-                def build_unprepared_statement(query) : DB::Statement
-                    RawStatement.new(self, query, @cluster.paging_size)
-                end
+            def build_unprepared_statement(query) : DB::Statement
+                RawStatement.new(self, query, @cluster.paging_size)
+            end
             end
         end
     end
