@@ -16,6 +16,6 @@ development_dependencies:
   crystal_lib:
     github: crystal-lang/crystal_lib
   spectator:
-    github: arctic-fox/spectator
+    github: icy-arctic-fox/spectator
 
 license: MIT

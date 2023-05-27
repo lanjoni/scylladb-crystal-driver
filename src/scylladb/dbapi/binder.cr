@@ -6,7 +6,7 @@ module ScylladB
             class BindError < DB::Error
             end
 
-            class initialize(@scylla_stmt : LibScylla::ScyllaStatement, @i : Int32)
+            def initialize(@scylla_stmt : LibScylla::ScyllaStatement, @i : Int32)
             end
 
             def bind(any)

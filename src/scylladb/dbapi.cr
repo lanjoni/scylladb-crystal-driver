@@ -59,11 +59,11 @@ module ScyllaDB
                 @raw == other.raw
             end
 
-            def (other)
+            def ==(other)
                 @raw == other
             end
 
-            def (as_nil)
+            def as_nil
                 @raw.as(Nil)
             end
 

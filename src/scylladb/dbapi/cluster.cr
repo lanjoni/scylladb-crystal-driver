@@ -17,7 +17,7 @@ module Scylla
 
             @acquire_count = Atomic(Int32).new(0)
             @uri_s : String
-            getter paging_size : Uint64?
+            getter paging_size : UInt64?
 
             @scylla_cluster : LibScylla::ScyllaCluster
 

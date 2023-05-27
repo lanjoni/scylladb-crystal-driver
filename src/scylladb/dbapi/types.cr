@@ -64,7 +64,7 @@ module ScylladB
         end
 
         struct Date 
-            getter Date
+            getter date
 
             def initialize(@date : ::Time)
             end

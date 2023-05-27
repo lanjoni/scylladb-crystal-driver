@@ -55,7 +55,6 @@ module ScylladB
             def build_unprepared_statement(query) : DB::Statement
                 RawStatement.new(self, query, @cluster.paging_size)
             end
-            end
         end
     end
 end
