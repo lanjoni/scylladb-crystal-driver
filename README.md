@@ -1,16 +1,23 @@
-<h1 align="center">ScyllaDB Crystal Driver</h1>
+<div align="center">
+  <a href="https://github.com/lanjoni/scylladb-crystal-driver">
+    <img src="https://www.scylladb.com/wp-content/uploads/scylla-opensource-1.png" alt="ScyllaDB Logo" width="150">
+    <img src="https://cdn.freebiesupply.com/logos/large/2x/crystal-1-logo-png-transparent.png" alt="Crystal Logo" width="150">
+  </a>
+  
+  <h1 align="center">ScyllaDB Crystal Driver</h1>
 
-<p align="center">
-  A Crystal wrapper around the <a href="https://github.com/kaukas/crystal-cassandra">Crystal DB API for Cassandra</a> and <a href="https://github.com/scylladb/cpp-driver">C/C++ Driver for ScyllaDB</a>.
-  <br />
-  <br />
-  <a href="https://docs.scylladb.com/stable/"><strong>Explore the ScyllaDB docs »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/lanjoni/scylladb-crystal-driver/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/lanjoni/scylladb-crystal-driver/issues">Request Feature</a>
-</p>
+  <p align="center">
+    A Crystal wrapper around the <a href="https://github.com/kaukas/crystal-cassandra">Crystal DB API for Cassandra</a> and <a href="https://github.com/scylladb/cpp-driver">C/C++ Driver for ScyllaDB</a>.
+    <br />
+    <br />
+    <a href="https://docs.scylladb.com/stable/"><strong>Explore the ScyllaDB docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/lanjoni/scylladb-crystal-driver/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/lanjoni/scylladb-crystal-driver/issues">Request Feature</a>
+  </p>
+</div>
 
 ## About
 
