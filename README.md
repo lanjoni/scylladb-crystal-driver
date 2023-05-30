@@ -47,9 +47,9 @@ dependencies:
 From the [basic example](https://github.com/lanjoni/scylladb-crystal-driver/blob/main/examples/basic.cr):
 
 ```cr
-require "cassandra/dbapi"
+require "scylladb/dbapi"
 
-DB.open("cassandra://127.0.0.1/test") do |db|
+DB.open("scylladb://127.0.0.1/test") do |db|
   db.exec(<<-CQL)
     create table posts (
       id timeuuid primary key,
